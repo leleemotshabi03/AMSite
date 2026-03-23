@@ -1,0 +1,260 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(6, 6, 46);
+  padding: 1rem 2rem;
+  height: 150px;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+.about-section {
+  padding: 50px;
+ 
+  background-image: url("/images/animal-logo-illustration-in-the-forest-with-sunset-outdoor-design-inspiration-vector.jpg");
+
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start; /* aligns text to top of image */
+  gap: 15px; /* smaller gap between image and text */
+}
+
+
+
+.about-text {
+  max-width: 500px; /* narrower text block */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;        /* remove default margins */
+}
+
+.about-text h2 {
+  margin: 0 0 8px 0; /* tighten spacing above/below heading */
+  color: #f4b400;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between image and text */
+}
+
+.about-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text {
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+  color: #f4b400; /* matches your yellow branding */
+}
+
+/* Hero Section */
+.hero {
+  background: url('office.jpg') no-repeat center center/cover;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+
+.hero-text p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Story Section */
+.story {
+  padding: 3rem 6rem;
+  background: #f9f9f9;
+}
+
+.story h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.story p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+
+/* Team Section */
+.team {
+  padding: 3rem 6rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.member img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.member h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.member p {
+  color: #777;
+}
+
+/* Projects Section */
+.projects {
+  padding: 3rem 6rem;
+  text-align: center;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.projects p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #020a33;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #f39c12;
+}
+
+/* Footer */
+footer {
+  background: #020733;
+  color: #fff;
+  padding: 2rem 6rem;
+  height: 200px;
+}
+
+
+
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem 6rem;
+  
+}
+
+.footer-content .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-links h4 {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+}
